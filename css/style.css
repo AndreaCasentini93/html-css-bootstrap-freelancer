@@ -57,6 +57,11 @@ p {
 a {
     text-decoration: none;
     color: #ffffff;
+    transition: color .3s;
+}
+a:hover {
+    text-decoration: none;
+    color: #9bbddd;
 }
 
 input {
@@ -75,6 +80,10 @@ button {
     border: 1px solid #ffffff;
     color: #ffffff;
     background-color: #1abc9c;
+    transition: background-color .3s;
+}
+.button:hover {
+    background-color: #12816b;
 }
 .button .fas.fa-download {
     margin-right: 5px;
@@ -124,6 +133,11 @@ button {
     text-align: center;
     border-radius: 50%;
     border: 1px solid #ffffff;
+    transition: color .3s;
+    transition: background-color .3s;
+}
+.img_social:hover {
+    background-color: #2c3e50;
 }
 
 .color_blue {
@@ -213,9 +227,12 @@ button {
 #social [class*="col-"] {
     margin: 10px 0;
 }
-
 #social #color_green {
     color: #1abc9c;
+    transition: color .3s;
+}
+#social #color_green:hover {
+    color: #12816b;
 }
 
 #copyright span {
