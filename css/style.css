@@ -4,8 +4,51 @@
     background-color: lightgrey;
 }
 
-/* COMMON */
+/* COMMONS */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
 
+h1 {
+    font-size: ;
+}
+h2 {
+    font-size: ;
+    color: #000000;
+}
+h3 {
+    font-size: ;
+}
+p {
+    font-size: ;
+}
+
+img {
+    height: ;
+}
+.img_icon {
+    height: ;
+}
+
+.button {
+
+}
+
+.star {
+
+}
+
+.color_blue {
+    color: #2c3e50;
+}
+
+.background_blue {
+    background-color: #2c3e50;
+}
+.background_lightblue {
+    background-color: #3a546d;
+}
 
 /* HEADER */
 
@@ -14,3 +57,15 @@
 
 
 /* FOOTER */
+
+@media screen and (min-width: 768px)  {
+    
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+
+}
