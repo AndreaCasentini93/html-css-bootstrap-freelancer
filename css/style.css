@@ -104,9 +104,9 @@ a {
 
 #jumbotron {
     text-align: center;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 79px);
     padding: 40px 0;
-    margin-top: 80px;
+    margin-top: 81px;
 }
 #jumbotron img {
     height: 250px;
