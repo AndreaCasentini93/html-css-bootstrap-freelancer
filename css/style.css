@@ -1,13 +1,20 @@
 /* DEBUG */
-[class*="col-"] {
+/* [class*="col-"] {
     min-height: 20px;
     background-color: lightgrey;
-}
+} */
 
 /* COMMONS */
 body {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+}
+
+.list_inline {
+    list-style: none;
+}
+.list_inline li {
+    display: inline-block;
 }
 
 h1 {
@@ -22,6 +29,10 @@ h3 {
 }
 p {
     font-size: ;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 img {
@@ -57,7 +68,19 @@ img {
 }
 
 /* HEADER */
-
+#navigation .navbar {
+    min-height: 80px;
+}
+#navigation [class*="col-"] {
+    min-height: 80px;
+}
+#navigation a {
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 /* MAIN */
 
