@@ -182,7 +182,7 @@ a {
 }
 #contact .data {
     text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 #contact input {
     padding: 0;
@@ -192,12 +192,14 @@ a {
 #contact input[type="textarea"] {
     padding-bottom: 100px;
 }
-#contact .fas.fa-expand-arrows-alt{
+#contact .fas.fa-expand-alt{
     position: absolute;
     right: 0;
     bottom: 0;
-    font-size: 7px;
+    transform: rotate(90deg);
+    font-size: 10px;
     color: #1abc9c;
+    cursor: pointer;
 }
 
 /* FOOTER */
