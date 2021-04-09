@@ -1,6 +1,7 @@
 /* DEBUG */
 /* [class*="col-"] {
     min-height: 20px;
+    border: 1px solid black;
     background-color: lightgrey;
 } */
 
@@ -18,7 +19,8 @@ body {
 }
 
 h1 {
-    font-size: ;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 h2 {
     font-size: ;
@@ -36,7 +38,7 @@ a {
 }
 
 img {
-    height: ;
+    height: 250px;
 }
 .img_icon {
     height: ;
@@ -47,7 +49,20 @@ img {
 }
 
 .star {
-
+    vertical-align: middle;
+    font-size: 20px;
+}
+.star hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 2px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.fas.fa-star {
+    padding: 0 10px;
 }
 
 .color_green {
@@ -75,11 +90,18 @@ img {
     min-height: 80px;
 }
 #navigation a {
+    text-transform: uppercase;
     line-height: 80px;
     font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+#jumbotron {
+    text-align: center;
+    min-height: calc(100vh - 80px);
+    padding: 40px 0;
+    margin-top: 80px;
 }
 
 /* MAIN */
