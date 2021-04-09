@@ -123,6 +123,7 @@ button {
     width: 100%;
     border-radius: 10px;
     margin: 13px 0;
+    transition: transform .3s;
 }
 .img_social {
     width: 40px;
@@ -279,6 +280,10 @@ button {
     .star_small .fas.fa-star {
         padding: 0 10px;
         letter-spacing: unset;
+    }
+
+    .img_main:hover {
+        transform: scale(1.1);
     }
 
     /* HEADER */
