@@ -18,15 +18,22 @@ body {
     display: inline-block;
 }
 
+button {
+    border-width: 0;
+    background-color: #00000000;
+}
 .button {
 
 }
+.button .fas.fa-download {
+    margin-right: 5px;
+}
 
-.star_white {
+.star {
     vertical-align: middle;
     font-size: 25px;
 }
-.star_white hr {
+.star hr {
     display: inline-block;
     vertical-align: middle;
     width: 60px;
@@ -34,8 +41,24 @@ body {
     border-radius: 5px;
     background-color: #ffffff;
 }
-.fas.fa-star {
-    padding: 0 10px;
+.star .fas.fa-star {
+    padding: 0 6px;
+}
+.star_small {
+    vertical-align: middle;
+    font-size: 25px;
+}
+.star_small hr {
+    display: inline-block;
+    vertical-align: -13px;
+    width: 35px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.star_small .fas.fa-star {
+    padding-left: 6px;
+    letter-spacing: -5px;
 }
 
 h1 {
@@ -54,7 +77,7 @@ h3 {
     font-size: 18px;
 }
 p {
-
+    font-size: 16px;
 }
 a {
     text-decoration: none;
@@ -119,6 +142,18 @@ a {
 }
 #portfolio hr {
     background-color: #2c3e50;
+}
+
+#about {
+    text-align: center;
+}
+#about h2 {
+    text-align: center;
+    color: #ffffff;
+}
+#about p {
+    text-align: left;
+    padding: 10px 70px;
 }
 
 /* FOOTER */
