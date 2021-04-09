@@ -26,6 +26,7 @@ footer section {
 
 .list_inline {
     list-style: none;
+    padding: 0;
 }
 .list_inline li {
     display: inline-block;
