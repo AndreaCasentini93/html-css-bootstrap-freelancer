@@ -7,7 +7,7 @@ section {
     text-align: center;
 }
 main section {
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 footer section {
     padding: 30px 0 40px 0;
@@ -220,13 +220,53 @@ a {
 }
 
 @media screen and (min-width: 768px)  {
-    
+
+    /* COMMONS */
+    .star hr {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
+    .img_main {
+        width: 80%;
+    }
+
+    /* HEADER */
+    #jumbotron {
+        min-height: unset;
+    }
+
+    /* MAIN */
+
+
+    /* FOOTER */
+
 
 
 }
 
 @media screen and (min-width: 1200px) {
 
+        /* COMMONS */
 
 
+    /* HEADER */
+    
+
+    /* MAIN */
+
+
+    /* FOOTER */
+
+
+   
 }
