@@ -10,7 +10,7 @@ main section {
     padding-bottom: 35px;
 }
 footer section {
-    padding: 30px 0 40px 0;
+    padding: 30px 0;
 }
 
 .position_relative {
@@ -24,6 +24,39 @@ footer section {
 .list_inline li {
     display: inline-block;
     margin: 0 2.5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #000000;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 input {
@@ -77,39 +110,6 @@ button {
 .star_small .fas.fa-star {
     padding-left: 6px;
     letter-spacing: -7px;
-}
-
-h1 {
-    text-transform: uppercase;
-    font-weight: 700;
-}
-h2 {
-    text-transform: uppercase;
-    font-size: 23px;
-    font-weight: 700;
-    padding-top: 20px;
-    color: #000000;
-}
-h3 {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-h4 {
-    text-transform: uppercase;
-    font-size: 16px;
-}
-h6 {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-}
-p {
-    font-size: 16px;
-}
-a {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 .img_main {
@@ -177,7 +177,10 @@ a {
 }
 #about p {
     text-align: left;
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
+}
+#about .button {
+    margin-top: 10px;
 }
 
 #contact hr {
@@ -216,28 +219,51 @@ a {
 }
 
 #copyright span {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 @media screen and (min-width: 768px)  {
 
     /* COMMONS */
-    .star hr {
-        width: 120px;
-    }
-
     h1 {
         font-size: 50px;
     }
     h2 {
-        font-size: 40px;
+        font-size: 45px;
     }
     h3 {
         font-size: 22px;
     }
+    h4 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+    }
 
-    .img_main {
-        width: 80%;
+    .button {
+        font-size: 17px;
+        padding: 8px 13px;
+        border-radius: 5px;
+    }
+
+    .star hr {
+        width: 120px;
+    }
+
+    .star_small {
+        font-size: 28px;
+    }
+    .star_small hr {
+        vertical-align: middle;
+        width: 120px;
+    }
+    .star_small .fas.fa-star {
+        padding: 0 10px;
+        letter-spacing: unset;
     }
 
     /* HEADER */
@@ -245,28 +271,4 @@ a {
         min-height: unset;
     }
 
-    /* MAIN */
-
-
-    /* FOOTER */
-
-
-
-}
-
-@media screen and (min-width: 1200px) {
-
-        /* COMMONS */
-
-
-    /* HEADER */
-    
-
-    /* MAIN */
-
-
-    /* FOOTER */
-
-
-   
 }
