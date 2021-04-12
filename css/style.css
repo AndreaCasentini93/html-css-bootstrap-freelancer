@@ -309,6 +309,9 @@ button .fas.fa-download {
         font-size: 18px;
     }
 
+    .btn {
+        font-size: 18px;
+    }
 
     .star hr {
         width: 120px;
