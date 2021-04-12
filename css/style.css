@@ -266,6 +266,9 @@ button .fas.fa-download {
     border-radius: unset;
     -webkit-box-shadow: unset;
 }
+#contact textarea {
+    height: 150px;
+}
 
 /* FOOTER */
 #social [class*="col-"] {
