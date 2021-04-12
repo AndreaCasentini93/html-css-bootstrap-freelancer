@@ -221,7 +221,7 @@ button {
 
 /* FOOTER */
 #social [class*="col-"] {
-    margin: 40px 0;
+    margin: 10px 0;
 }
 #social #color_green {
     color: #1abc9c;
