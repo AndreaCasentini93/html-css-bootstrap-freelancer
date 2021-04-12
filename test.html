@@ -9,10 +9,26 @@
         <title>Test Bootstrap Freelancer</title>
     </head>
 
-    <body>
-        <button class="ms_button btn btn-default" type="submit">Button</button>
-
-        <input class="ms_button btn btn-default" type="button" value="Input">
+    <body id="contact">
+        <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group position_relative">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" rows="3"></textarea>
+            </div>
+            <input class="ms_button btn btn-default" type="button" value="Input">
+          </form>
 
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

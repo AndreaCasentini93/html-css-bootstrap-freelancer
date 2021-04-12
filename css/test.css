@@ -1,8 +1,9 @@
-button {
-    margin: 50px;
+form {
+    margin-left: 50px;
+    margin-top: 50px;
 }
-input {
-    margin: 50px 70px 50px 50px;
+.position_relative {
+    position: relative;
 }
 
 .ms_button.btn-default {
@@ -12,13 +13,21 @@ input {
     transition: color .3s;
     transition: background-color .3s;
 }
-button.ms_button.btn-default:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border-color: #ffffff;
-}
 input.ms_button.btn-default:hover {
     color: #ffffff;
     background-color: #12816b;
     border-color: #ffffff;
+}
+
+
+#contact .form-control {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: unset;
+    -webkit-box-shadow: unset;
+}
+#contact label {
+    font-weight: 400;
 }
