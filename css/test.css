@@ -1,7 +1,9 @@
 #navigation.navbar {
     min-height: 80px;
+    border: none;
+    border-radius: unset;
+    margin-bottom: 0;
     font-weight: 700;
-    border-color: #ffffff;
     background-color: #2c3e50;
 }
 #navigation.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -13,8 +15,8 @@
 #navigation.navbar-default .navbar-toggle .icon-bar {
     background-color: #1abc9c;
 }
-#navigation.navbar-default .navbar-collapse {
-    border-top: 1px solid #1abc9c;
+#navigation .navbar-collapse {
+    border: 0;
 }
 #navigation .navbar-header {
     min-height: 80px;
@@ -28,7 +30,7 @@
     margin-bottom: 19px;
 }
 #navigation .navbar-brand {
-    font-size: 20px;
+    font-size: 22px;
 }
 #navigation a {
     font-size: 18px;
@@ -39,4 +41,12 @@
 }
 #navigation a:hover:not(.navbar-brand) {
     color: #1abc9c;
+}
+#navigation.navbar-default .navbar-nav>.active>a {
+    line-height: 60px;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1abc9c;
 }
