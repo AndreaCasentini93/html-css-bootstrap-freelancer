@@ -1,0 +1,24 @@
+button {
+    margin: 50px;
+}
+input {
+    margin: 50px 70px 50px 50px;
+}
+
+.ms_button.btn-default {
+    color: #ffffff;
+    background-color: #1abc9c;
+    border-color: #ffffff;
+    transition: color .3s;
+    transition: background-color .3s;
+}
+button.ms_button.btn-default:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+input.ms_button.btn-default:hover {
+    color: #ffffff;
+    background-color: #12816b;
+    border-color: #ffffff;
+}

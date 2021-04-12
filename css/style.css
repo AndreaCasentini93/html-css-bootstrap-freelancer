@@ -61,34 +61,26 @@ a:hover {
     color: #1abc9c;
 }
 
-/* input {
-    display: block;
-    width: 100%;
-    border-width: 0;
-    background-color: #00000000;
-}
-label {
-    font-size: 16px;
-    font-weight: 400;
-}
-button {
-    border-width: 0;
-    background-color: #00000000;
-}
-.button {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
+.ms_button.btn-default {
     color: #ffffff;
     background-color: #1abc9c;
+    border-color: #ffffff;
+    transition: color .3s;
     transition: background-color .3s;
 }
-.button:hover {
-    background-color: #12816b;
+button .fas.fa-download {
+    margin-right: 10px;
 }
-.button .fas.fa-download {
-    margin-right: 5px;
-} */
+button.ms_button.btn-default:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+input.ms_button.btn-default:hover {
+    color: #ffffff;
+    background-color: #12816b;
+    border-color: #ffffff;
+}
 
 .star {
     vertical-align: middle;
@@ -202,16 +194,6 @@ button {
 #navigation a:hover:not(.navbar-brand) {
     color: #1abc9c;
 }
-#navigation.navbar-default .navbar-collapse .navbar-nav>.active>a {
-    display: inline-block;
-    line-height: 60px;
-    vertical-align: middle;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #ffffff;
-    background-color: #1abc9c;
-}
 #navigation.navbar-default .collapse.in .navbar-nav>.active>a {
     display: inline-block;
     line-height: 60px;
@@ -224,7 +206,8 @@ button {
 }
 
 #jumbotron {
-    padding: 40px 0;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 #jumbotron img {
     height: 250px;
@@ -308,14 +291,6 @@ button {
         font-size: 17px;
     }
 
-    /* label {
-        font-size: 17px;
-    }
-    .button {
-        font-size: 17px;
-        padding: 8px 13px;
-        border-radius: 5px;
-    } */
 
     .star hr {
         width: 120px;
@@ -336,13 +311,19 @@ button {
         letter-spacing: unset;
     }
 
-    /* .img_main:hover {
-        transform: scale(1.1);
-    } */
-
     /* HEADER */
     #navigation a {
         font-size: 16px;
+    }
+    #navigation.navbar-default .navbar-collapse .navbar-nav>.active>a {
+        display: inline-block;
+        line-height: 60px;
+        vertical-align: middle;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #ffffff;
+        background-color: #1abc9c;
     }
 
     /* FOOTER */
