@@ -119,11 +119,33 @@ button .fas.fa-download {
     letter-spacing: -7px;
 }
 
-.img_main {
-    width: 100%;
+.img_box {
+    overflow: hidden;
     border-radius: 10px;
     margin: 13px 0;
-    transition: transform .3s;
+    background-color: #1abc9c;
+}
+.img_box:hover .img_main {
+    opacity: 0.2;
+}
+.img_box:hover .img_add {
+    opacity: 1;
+}
+.img_main {
+    width: 100%;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+.img_add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity .3s;
 }
 .img_social {
     width: 40px;
