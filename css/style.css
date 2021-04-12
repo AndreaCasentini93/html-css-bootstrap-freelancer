@@ -264,7 +264,7 @@ button .fas.fa-download {
     border: none;
     border-bottom: 1px solid #cccccc;
     border-radius: unset;
-    -webkit-box-shadow: unset;
+    box-shadow: unset;
 }
 #contact textarea {
     height: 150px;
