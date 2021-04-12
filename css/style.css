@@ -269,7 +269,10 @@ button {
     .star hr {
         width: 120px;
     }
-
+    .star .fas.fa-star {
+        padding: 0 30px;
+        letter-spacing: unset;
+    }
     .star_small {
         font-size: 28px;
     }
@@ -278,7 +281,7 @@ button {
         width: 120px;
     }
     .star_small .fas.fa-star {
-        padding: 0 10px;
+        padding: 0 30px;
         letter-spacing: unset;
     }
 
