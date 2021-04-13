@@ -146,6 +146,7 @@ button .fas.fa-download {
     color: #ffffff;
     opacity: 0;
     transition: opacity .3s;
+    cursor: pointer;
 }
 .img_social {
     width: 40px;
