@@ -60,10 +60,6 @@ a:hover {
     text-decoration: none;
     color: #1abc9c;
 }
-label {
-    font-size: 16px;
-    font-weight: 400;
-}
 
 .ms_button_1.btn-default,
 .ms_button_2.btn-default {
@@ -267,8 +263,18 @@ button .fas.fa-download {
     border-radius: unset;
     box-shadow: unset;
 }
+#contact .form-control {
+    padding-left: 0;
+}
+#contact input {
+    padding-bottom: 20px;
+}
 #contact textarea {
     height: 150px;
+}
+#contact input::placeholder,
+#contact textarea::placeholder {
+    color: #2c3e50;
 }
 
 /* FOOTER */
@@ -305,9 +311,6 @@ button .fas.fa-download {
         font-size: 18px;
     }
     p {
-        font-size: 17px;
-    }
-    label {
         font-size: 17px;
     }
 
@@ -347,6 +350,12 @@ button .fas.fa-download {
         margin-bottom: 10px;
         color: #ffffff;
         background-color: #1abc9c;
+    }
+
+    /* MAIN */
+    #contact input::placeholder,
+    #contact textarea::placeholder {
+        font-size: 17px;
     }
 
     /* FOOTER */
